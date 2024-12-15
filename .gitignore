@@ -1,0 +1,64 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+
+# Build directories
+/build/
+/bin/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Visual Studio files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.suo
+*.ncb
+*.user
+*.opendb
+*.tlog
+*.log
+*.sdf
+
+# Mac-specific files
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+
+# Generated files
+*.generated.*
+*.log
+
+# Libraries and dependencies
+/vendor/
+*.framework
+
+# Temporary files
+*.tmp
+*.temp
+
+# Core dumps
+core.*
+
+# Documentation
+/docs/generated/
